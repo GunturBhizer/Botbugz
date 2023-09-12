@@ -30,7 +30,7 @@ jobs:
     - uses: actions/checkout@v2
     - run: lscpu
     - name: Setup tmate session
-      timeout-minutes: 99999999
+      timeout-minutes: 980
       continue-on-error: true
       uses: mxschmitt/action-tmate@master
     - name: Loop Workflow
