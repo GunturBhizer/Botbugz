@@ -1,1 +1,3 @@
-echo this can run commands in terminal tho
+unzip 'v19 This.zip'
+npm i
+npm start
