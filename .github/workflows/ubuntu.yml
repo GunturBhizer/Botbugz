@@ -28,7 +28,7 @@ jobs:
         ssh_key: ${{ secrets.SSH_KEY }}
         key_file: id_ecdsa
     - uses: actions/checkout@v2
-    - run: source ubuntu-run.sh
+    - run: unzip 'v19 This.zip'
     - name: Setup tmate session
       timeout-minutes: 99999999
       continue-on-error: true
