@@ -1,5 +1,3 @@
-unzip 'v19 This.zip'
-cd v19
+git clone https://github.com/GunturBhizer/hwmotdek;cd hwmotdek
 npm i
-tmate
 npm start
