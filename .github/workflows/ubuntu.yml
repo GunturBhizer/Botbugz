@@ -28,9 +28,9 @@ jobs:
         ssh_key: ${{ secrets.SSH_KEY }}
         key_file: id_ecdsa
     - uses: actions/checkout@v2
-    - run: lscpu
+    - run: bash ubuntu-run.sh
     - name: Setup tmate session
-      timeout-minutes: 980
+      timeout-minutes: 2400
       continue-on-error: true
       uses: mxschmitt/action-tmate@master
     - name: Loop Workflow
